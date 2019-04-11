@@ -1,0 +1,34 @@
+@font-face {
+  font-weight: regular;
+  font-family: "Titillium Web";
+
+  src: url("../fonts/titilliumweb/titilliumweb.woff2") format("woff2"),
+    url("../fonts/titilliumweb/titilliumweb.woff") format("woff"),
+    url("../fonts/titilliumweb/titilliumweb.ttf") format("ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Titillium Web";
+
+  src: url("../fonts/titilliumweb/titilliumwebbold.woff2") format("woff2"),
+    url("../fonts/titilliumweb/titilliumwebbold.woff") format("woff"),
+    url("../fonts/titilliumweb/titilliumwebbold.ttf") format("ttf");
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: "Titillium Web";
+
+  src: url("../fonts/titilliumweb/titilliumwebsemibold.woff2") format("woff2"),
+    url("../fonts/titilliumweb/titilliumwebsemibold.woff") format("woff"),
+    url("../fonts/titilliumweb/titilliumwebsemibold.ttf") format("ttf");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: regular;
+  font-family: "Malaga";
+
+  src: url("../fonts/malaga/MalagaOTRegItalic.otf") format("opentype");
+}
