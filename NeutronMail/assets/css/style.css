@@ -211,3 +211,30 @@
 .button-list__item {
   margin: 0 10px;
 }
+
+.socials-list {
+  position: absolute;
+  top: 35%;
+  right: 80px;
+
+  list-style: none;
+  line-height: 0;
+}
+
+.socials-list__item {
+  margin-bottom: 15px;
+
+  opacity: 0.5;
+
+  transition: opacity ease 0.18s;
+}
+
+.socials-list__item:hover {
+  opacity: 0.8;
+
+  transition: opacity ease 0.18s;
+}
+
+.socials-list__icon {
+  width: 24px;
+}
