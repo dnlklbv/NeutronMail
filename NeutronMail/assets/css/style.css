@@ -242,3 +242,54 @@
 .socials-list__icon {
   width: 24px;
 }
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.feature-item:first-child {
+  margin-left: 100px;
+}
+
+.feature-item {
+  position: relative;
+
+  display: inline-block;
+  width: 360px;
+  margin: 0 40px;
+}
+
+.feature-item__icon {
+  display: inline-block;
+}
+
+.feature-item__heading {
+  position: absolute;
+  top: 10px;
+
+  display: inline-block;
+  margin-left: 10px;
+
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 25px;
+  font-family: "Titillium", sans-serif;
+  color: #555555;
+}
+
+.feature-item__second-heading {
+  font-size: 18px;
+  color: #959393;
+}
+
+.feature-item__info {
+  margin-top: 20px;
+  margin-left: 10px;
+
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Titillium", sans-serif;
+  color: #959393;
+}
