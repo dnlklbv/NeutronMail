@@ -252,6 +252,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .feature-item:first-child {
@@ -336,4 +337,32 @@ body {
   height: 1px;
 
   background-color: #b9b9b9;
+}
+
+.features__heading {
+  margin-top: 12vh;
+  margin-right: 12vw;
+}
+
+.h2 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Titillium", sans-serif;
+  text-align: right;
+  color: #535353;
+  letter-spacing: 0.01em;
+}
+
+.h2__second-line {
+  display: inline-block;
+  max-width: 650px;
+
+  font-size: 24px;
+  line-height: 20px;
+  color: #959393;
+}
+
+.h2__colored {
+  color: #fc5a5d;
 }
