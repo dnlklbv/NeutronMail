@@ -39,7 +39,7 @@
 }
 
 .container {
-  width: 1400px;
+  width: 73vw;
   margin: 0 auto;
 }
 
@@ -178,13 +178,13 @@
 
 .header__content {
   min-height: 330px;
-  padding: 165px 0;
+  padding: 17vh 0;
 
   text-align: center;
 
   background: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-position: center 75px;
+  background-position: center 7vh;
   background-size: cover;
 }
 
@@ -209,7 +209,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 7vh;
 }
 
 .button-list__item {
@@ -218,7 +218,7 @@
 
 .socials-list {
   position: absolute;
-  top: 35%;
+  top: 33vh;
   right: 80px;
 
   list-style: none;
