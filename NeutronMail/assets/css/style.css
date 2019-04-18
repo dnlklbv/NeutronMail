@@ -424,3 +424,43 @@ body {
 
   vertical-align: middle;
 }
+
+.reviews-slider {
+  display: flex;
+  width: 570px;
+  margin-top: 70px;
+  margin-left: 22vw;
+}
+
+.slider__control {
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+
+  background-color: #b7b7b7;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.control_active {
+  width: 15px;
+  height: 15px;
+
+  background-color: #101010;
+}
+
+.slider__data {
+  margin-left: 20px;
+
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Malaga", sans-serif;
+  color: #101010;
+  letter-spacing: 0.01em;
+}
+
+.reviews-slider__author {
+  font-size: 16px;
+  color: #727272;
+}
