@@ -411,3 +411,16 @@ body {
 .features__learn-more::after:hover {
   pointer-events: none;
 }
+
+.clients-list {
+  margin-top: 40px;
+  margin-left: 5vw;
+
+  vertical-align: middle;
+}
+
+.clients-list__item {
+  margin-right: 50px;
+
+  vertical-align: middle;
+}
