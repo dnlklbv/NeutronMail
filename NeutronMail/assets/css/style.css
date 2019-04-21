@@ -488,23 +488,25 @@ body {
   color: #727272;
 }
 
+.bg-triangle {
+  position: absolute;
+  top: -24vh;
+
+  width: 100vw;
+  height: 24vh;
+
+  background: linear-gradient(to bottom, rgba(238, 238, 238) 1%, rgba(248, 248, 248) 99%);
+
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
 .any-device-section {
   position: relative;
   z-index: 100;
 
   margin-top: 17vh;
 
-  background-color: #f0f0f0;
-}
-
-.any-device-section::before {
-  content: "";
-  position: absolute;
-  top: -23vh;
-
-  border-width: 0 0 23vh 100vw;
-  border-style: solid;
-  border-color: transparent transparent #f0f0f0 transparent;
+  background: linear-gradient(to bottom, rgba(248, 248, 248) 1%, rgba(245, 245, 245, 0) 99%);
 }
 
 .any-device-section__data {
@@ -560,8 +562,6 @@ body {
   padding: 16vh 0 9vh 0;
 
   text-align: center;
-
-  background-color: #f0f0f0;
 }
 
 .section-donate::before {
