@@ -84,6 +84,11 @@ body {
   padding: 15px 0;
 }
 
+.button_medium {
+  width: 170px;
+  padding: 15px 0;
+}
+
 .button_round {
   display: flex;
   justify-content: center;
@@ -124,6 +129,15 @@ body {
 
 .button__icon {
   width: 20px;
+
+  vertical-align: middle;
+}
+
+.button__text-icon {
+  width: 20px;
+  margin-right: 0.3vw;
+
+  vertical-align: middle;
 }
 
 .top-bar {
@@ -245,7 +259,7 @@ body {
 }
 
 .button-list__item {
-  margin: 0 10px;
+  margin: 0 0.8vw;
 }
 
 .socials-list {
@@ -476,6 +490,7 @@ body {
 
 .any-device-section {
   position: relative;
+  z-index: 100;
 
   margin-top: 17vh;
 
@@ -493,7 +508,6 @@ body {
 }
 
 .any-device-section__data {
-  z-index: 100;
 
   max-width: 27vw;
   margin-left: 33vw;
@@ -502,7 +516,6 @@ body {
   color: #535353;
 
   transform: translateY(-6vh);
-  opacity: 0.99;
 }
 
 .any-device-section__text {
@@ -519,6 +532,18 @@ body {
   font-size: 36px;
   line-height: 60px;
   font-family: "Titillium", sans-serif;
+  color: #535353;
+  letter-spacing: 0.01em;
+}
+
+.h3__second-line {
+  display: block;
+  margin-top: -20px;
+
+  font-weight: 400;
+  font-size: 29px;
+  font-family: "Titillium", sans-serif;
+  color: #7c7c7c;
   letter-spacing: 0.01em;
 }
 
@@ -526,6 +551,45 @@ body {
   position: absolute;
   right: 17vw;
   bottom: -12vh;
+}
 
-  opacity: 0.99;
+.section-donate {
+  position: relative;
+  z-index: 0;
+
+  padding: 16vh 0 9vh 0;
+
+  text-align: center;
+
+  background-color: #f0f0f0;
+}
+
+.section-donate::before {
+  content: "";
+  position: absolute;
+  top: 10vh;
+  right: 0;
+
+  display: block;
+  width: 80vw;
+  height: 1px;
+
+  background-color: #b9b9b9;
+}
+
+.section-donate::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+  width: 80vw;
+  height: 1px;
+
+  background-color: #b9b9b9;
+}
+
+.section-donate__button-list {
+  margin-top: 3vh;
 }
