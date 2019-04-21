@@ -436,9 +436,6 @@ body {
 }
 
 .image-list {
-  margin-top: 40px;
-  margin-left: 5vw;
-
   vertical-align: middle;
 }
 
@@ -446,6 +443,15 @@ body {
   margin-right: 50px;
 
   vertical-align: middle;
+}
+
+.image-list__item:last-child {
+  margin: 0;
+}
+
+.reviews__logo-list {
+  margin-left: 5vw;
+  margin-top: 4vh;
 }
 
 .reviews-slider {
@@ -571,7 +577,7 @@ body {
   right: 0;
 
   display: block;
-  width: 80vw;
+  width: 75vw;
   height: 1px;
 
   background-color: #b9b9b9;
@@ -584,7 +590,7 @@ body {
   left: 0;
 
   display: block;
-  width: 80vw;
+  width: 75vw;
   height: 1px;
 
   background-color: #b9b9b9;
@@ -592,4 +598,39 @@ body {
 
 .section-donate__button-list {
   margin-top: 3vh;
+}
+
+.section-partners {
+  position: relative;
+
+  text-align: right;
+}
+
+.section-partners::after {
+  content: "";
+  position: absolute;
+  top: -2vh;
+  left: calc(75vw - 1px);
+
+  display: block;
+  width: 1px;
+  height: 45vh;
+
+  background-color: #b9b9b9;
+}
+
+.section-partners__subtitle {
+  margin-top: 2vh;
+  margin-right: 26vw;
+
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Titillum", sans-serif;
+  color: #7a7a7a;
+  letter-spacing: 0.01em;
+}
+
+.section-partners__logo-list {
+  margin-top: 2vh;
+  margin-right: 25vw;
 }
