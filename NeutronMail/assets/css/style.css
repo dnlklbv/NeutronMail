@@ -199,26 +199,26 @@ body {
   margin-top: 11px;
 }
 
-.lang-select__item {
+.bread-crubs__item {
   display: inline-block;
 
   font-size: 14px;
   color: #959595;
 }
 
-.lang-select__item_selected {
+.bread-crubs__item_selected {
   font-weight: 700;
   text-decoration: underline;
 }
 
-.lang-select__item::after {
+.bread-crubs__item::after {
   content: "/";
 
   display: inline-block;
   margin: 0 10px;
 }
 
-.lang-select__item:last-child::after {
+.bread-crubs__item:last-child::after {
   content: none;
 }
 
