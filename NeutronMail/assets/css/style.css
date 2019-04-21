@@ -1,5 +1,5 @@
 @font-face {
-  font-weight: regular;
+  font-weight: 400;
   font-family: "Titillium";
 
   src: url("../fonts/titilliumweb/titilliumweb.woff2") format("woff2"),
@@ -27,7 +27,7 @@
 
 @font-face {
   font-style: italic;
-  font-weight: regular;
+  font-weight: 400;
   font-family: "Malaga";
 
   src: url("../fonts/malaga/MalagaOTRegItalic.otf") format("opentype");
@@ -58,7 +58,7 @@ body {
 }
 
 .link {
-  font-weight: regular;
+  font-weight: 400;
   font-family: "Titillium", sans-serif;
   color: #454545;
   text-decoration: none;
@@ -253,7 +253,7 @@ body {
 }
 
 .h1__decoration {
-  font-weight: regular;
+  font-weight: 400;
   font-size: 36px;
 }
 
@@ -460,8 +460,8 @@ body {
 }
 
 .reviews__logo-list {
-  margin-left: 5vw;
   margin-top: 4vh;
+  margin-left: 5vw;
 }
 
 .reviews-slider {
@@ -526,7 +526,6 @@ body {
 }
 
 .any-device-section__data {
-
   max-width: 27vw;
   margin-left: 33vw;
 
